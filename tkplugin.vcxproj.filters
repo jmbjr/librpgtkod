@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7327945c-e57f-4579-936e-7499ec6cd9d1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1a9a4826-5dae-4602-b671-a2cc583d039b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{eca73b0b-463f-4a40-865f-f84181e638c0}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{f527fd60-6dba-4dd3-a1e0-066b0ba87926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\Source Files %28do not modify%29">
+      <UniqueIdentifier>{3c753910-e88b-4a0f-b29b-3a23a5b3b438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\Header files %28do not modify%29">
+      <UniqueIdentifier>{3520a127-7dc3-4e0a-8d13-98842627ab1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Your Files">
+      <UniqueIdentifier>{16665bbf-d0a5-4209-83c4-bb779b2681b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration Files">
+      <UniqueIdentifier>{f36bcac2-4b45-4585-be3e-2c1756911f2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tkParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\tkplugcallbacks.cpp">
+      <Filter>sdk\Source Files %28do not modify%29</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\tkpluginbase.cpp">
+      <Filter>sdk\Source Files %28do not modify%29</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\tkpluglocalfns.cpp">
+      <Filter>sdk\Source Files %28do not modify%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FightPlugin.cpp">
+      <Filter>Configuration Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPlugin.cpp">
+      <Filter>Configuration Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Configuration Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RPGCodePlugin.cpp">
+      <Filter>Configuration Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tkplugin.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\tkplugin.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tkplugin.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tkParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\tkplugcallbacks.h">
+      <Filter>sdk\Header files %28do not modify%29</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\tkplugdefines.h">
+      <Filter>sdk\Header files %28do not modify%29</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Tkplugin.h">
+      <Filter>sdk\Header files %28do not modify%29</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\tkpluglocalfns.h">
+      <Filter>sdk\Header files %28do not modify%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Readme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
